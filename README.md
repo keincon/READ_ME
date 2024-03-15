@@ -73,8 +73,15 @@ Step 3
 
 
 ##Composerでインストールしたライブリをプロジェクトに入れます。
+自分のプロジェクトの index.php まで　行きます。
+そこで　先ほど　Composerがある場所を　requireで以下のように参考します。
+```bash
+  require('../../_codeigniter/composer/vendor/autoload.php');
+```
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/PJ_Index.PNG)]
 
 
+これでライブリを使えるようになりました。
 
 
 ## Authors
