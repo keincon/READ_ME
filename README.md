@@ -35,7 +35,16 @@ Step 2
 
 Step 3
 Composer-Setup.exe を開けます
+そして Composerを以下の画像通りにインストールします。
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/Composer_Install1.PNG)]
 
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/Composer_Install2.PNG)]
+
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/Composer_Install3.PNG)]
+
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/Composer_Install4.PNG)]
+
+##Composerでライブリをインストールします。
 
 
 
