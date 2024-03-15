@@ -45,6 +45,34 @@ Composer-Setup.exe を開けます
 [![](https://github.com/keincon/READ_ME/blob/main/composer_images/Composer_Install4.PNG)]
 
 ##Composerでライブリをインストールします。
+Step 1
+最初に　自分のプロジェクトでcomposer.jsonやcomposer.lockが　ある　フォルダを探します。
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/composer_dir.PNG)]
+
+Step 2
+そこまでCMDで移動します。
+```bash
+  cd [Folder]
+```
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/ComposerCMD.PNG)]
+
+
+Step 3
+自分がインストールしたい　ライブリをインストールします。
+ここで　私は　LaravelのDDというライブリをインストールしたいので　インストールします。
+```bash
+  https://packagist.org/packages/larapack/dd
+```
+
+コマンドを押します。
+```bash
+  composer require larapack/dd 1.*
+```
+何もエラー出なかったらライブリインストールしました。
+[![](https://github.com/keincon/READ_ME/blob/main/composer_images/Composer_cmd2.PNG)]
+
+
+##Composerでインストールしたライブリをプロジェクトに入れます。
 
 
 
