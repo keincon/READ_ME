@@ -1,0 +1,18 @@
+ERROR - 2024-05-22 07:58:04 --> (object) array(
+   'id' => '4',
+   'product_box_id' => '89',
+   'campaign_id' => '89',
+) -- Product_model.php L1082
+CRITICAL - 2024-05-22 07:58:04 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH/Models/Client/Product_model.php on line 1083.
+ 1 APPPATH/Models/Client/Product_model.php(1083): count()
+ 2 APPPATH/Controllers/Client/Backend/Json/Json_product.php(514): App\Models\Client\Product_model->edit_product_box()
+ 3 APPPATH/Controllers/Common/Json/Json_base.php(47): App\Controllers\Client\Backend\Json\Json_product->action_edit_product_box()
+ 4 [internal function]: App\Controllers\Common\Json\Json_base->action()
+ 5 APPPATH/Controllers/Common/Json.php(77): call_user_func()
+ 6 [internal function]: App\Controllers\Common\Json->__call()
+ 7 APPPATH/Controllers/Common/BaseController.php(334): call_user_func_array()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Common\BaseController->view()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(125): CodeIgniter\CodeIgniter->run()
